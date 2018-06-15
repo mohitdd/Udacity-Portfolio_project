@@ -1,12 +1,16 @@
 @media screen and (max-width :509px) and (min-width: 0px)
 {
   .project-photo {
-    width: 100%;
+    max-width: 100%;
     height: auto;
   }
   .final
   {
     display: flex;
     flex-wrap: wrap;
+  }
+
+  .flex-item {
+    margin-top: 5px;
   }
 }

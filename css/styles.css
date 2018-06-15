@@ -92,18 +92,18 @@ header
 }
 .description p
 {
-font-weight: 450;
-font-size: 1em;
-padding-left: 5px;
-padding-right: 5px;
+  font-weight: 450;
+  font-size: 1em;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 footer {
-        text-align: center;
-        border-bottom: solid;
-        border-top: solid;
-        border-color: #7d97ad;
-        margin-top: 10px;
+  text-align: center;
+  border-bottom: solid;
+  border-top: solid;
+  border-color: #7d97ad;
+  margin-top: 10px;
 }
 
 h2.project-title{
@@ -133,4 +133,14 @@ h2.project-title{
   height: auto;
   width: 100%;
   max-height: 267px;
+}
+
+.project-url {
+  line-height: 6px;
+  color: grey;
+}
+
+.work {
+  font-weight: 400;
+  font-size: 2em;
 }
