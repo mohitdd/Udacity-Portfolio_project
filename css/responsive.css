@@ -14,7 +14,7 @@
     margin-top: 5px;
   }
 }
-@media screen (max-width: 400px) {
+@media screen and (max-width: 400px) {
   .machine {
     height: 340px;
   }
@@ -24,7 +24,7 @@
 
   .header_title h1
   {
-    font-weight: 390;
+    font-weight: 300;
     font-size: 3em;
 
   }
