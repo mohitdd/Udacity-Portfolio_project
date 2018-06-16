@@ -21,24 +21,26 @@ header
 
 .header
 {
+  position: relative;
   margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
-  width:100%;
+  width: 100%;
   border-bottom: solid;
   border-color: #7d97ad;
 }
 
 .header_logo
 {
-  height:80px;
-  width:80px;
+  height: 80px;
+  width: 80px;
 }
 
 .header_title{
 
-  display: block;
-  float: right;
+  position: absolute;
+  top: 0px;
+  right: 0px;
   margin-top: 2px;
   line-height: 6px;
   color: #2d3c49;
@@ -58,8 +60,10 @@ header
 }
 .tech_logo
 {
-  margin-right:auto;
-  margin-left:auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .machine
@@ -69,16 +73,16 @@ header
   background-image: url(../img/main-img.jpg);
   max-width: 100%;
   background-size: cover;
-  height: 350px;
-  padding-top:75px; ;
+  height: 345px;
+  padding-top: 75px; ;
 }
 
 .description
 {
   padding: 2px;
   overflow: auto;
-  max-width:380px;
-  max-height:180px;
+  max-width: 380px;
+  max-height: 180px;
   margin-left: auto;
   margin-right: auto;
   background-color: rgba(255, 255, 255, 0.8);
@@ -103,17 +107,18 @@ footer {
   border-bottom: solid;
   border-top: solid;
   border-color: #7d97ad;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 h2.project-title{
   font-size: 2em;
   text-align: center;
+  font-weight: 400;
 }
 
 .flex-item
 {
-  display: inline-block;
+
   text-align: center;
   line-height: 12px;
 
